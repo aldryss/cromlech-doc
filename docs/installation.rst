@@ -2,10 +2,9 @@
 Installation
 ============
 
-Contents:
+.. todo::
+   FIXME !
 
-.. toctree::
-   :maxdepth: 2
 
 Linux
 =====
