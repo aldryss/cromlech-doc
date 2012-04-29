@@ -1,5 +1,6 @@
-Cromlech
-========
+==============
+About Cromlech
+==============
 
 Cromlech is the namecode of a toolkit based on the ZCA, Martian and a
 tiny subset of Grok's grokcore packages.

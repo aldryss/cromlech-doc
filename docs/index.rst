@@ -10,7 +10,9 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-
+   about
+   installation
+   cromlech-demo
 
 
 Indices and tables
