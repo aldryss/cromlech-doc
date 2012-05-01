@@ -14,4 +14,3 @@ Contents:
    about
    cromlech-demo
    .. installation
-

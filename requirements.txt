@@ -1,15 +1,288 @@
+Chameleon==2.8.4
 Jinja2==2.6
-Pygments==1.5
+SQLAlchemy==0.7.6
 Sphinx==1.1.3
-collective.recipe.sphinxbuilder==0.7.0
+Unidecode==0.04.9
+WebOb==1.2b3
+ZODB3==3.10.5
+aafigure==0.5
+collective.recipe.sphinxbuilder==0.7.1
+cromlech.dawnlight==0.5.1
+cromlech.i18n==0.1a1
+cromlech.sqlalchemy==0.3
+cromlech.zodb==0.2.2
 distribute==0.6.26
 docutils==0.8.1
+dolmen.collection==0.3
+dolmen.field==0.3
+dolmen.forms.table==2.0
+dolmen.layout==0.3.1
+dolmen.view==0.5
+dolmen.viewlet==0.3
+martian==0.14
+mr.developer==1.21
 roman==1.4.0
+sphinxcontrib-aafig==1.0
+sphinxcontrib.infrae==1.0
+zope.proxy==3.6.1
 
 #Required by:
-#collective.recipe.sphinxbuilder 0.7.0
+#sphinxcontrib.infrae 1.0
+Pygments==1.5
+
+#Required by:
+#zdaemon 2.0.4
+#ZODB3 3.10.5
+ZConfig==2.9.2
+
+#Required by:
+#dolmen.message 0.1
+#dolmen.tales 0.1
+#dolmen.template 0.1
+#demoapp 1.0
+#dolmen.menu 2.0
+cromlech.browser==0.4.4
+
+#Required by:
+#demoapp 1.0
+cromlech.configuration==0.1
+
+#Required by:
+#dolmen.container 0.2
+#demoapp 1.0
+#dolmen.content 2.0a2
+#dolmen.app.container 2.1
+cromlech.container==0.1
+
+#Required by:
+#dolmen.breadcrumbs 0.1
+#dolmen.location 0.1
+#dolmen.message 0.1
+#demoapp 1.0
+#dolmen.menu 2.0
+cromlech.io==0.3.1
+
+#Required by:
+#demoapp 1.0
+cromlech.security==0.1
+
+#Required by:
+#demoapp 1.0
+cromlech.webob==0.5
+
+#Required by:
+#demoapp 1.0
+dawnlight==0.13b2
+
+#Required by:
+#demoapp 1.0
+dolmen.app.container==2.1
+
+#Required by:
+#dolmen.forms.table 2.0
+dolmen.batch==0.1.2
+
+#Required by:
+#demoapp 1.0
+dolmen.breadcrumbs==0.1
+
+#Required by:
+#demoapp 1.0
+dolmen.container==0.2
+
+#Required by:
+#demoapp 1.0
+dolmen.content==2.0a2
+
+#Required by:
+#demoapp 1.0
+dolmen.forms.base==2.3
+
+#Required by:
+#dolmen.forms.table 2.0
+dolmen.forms.composed==2.0a1
+
+#Required by:
+#demoapp 1.0
+dolmen.forms.crud==2.2
+
+#Required by:
+#demoapp 1.0
+dolmen.forms.ztk==2.1.2
+
+#Required by:
+#demoapp 1.0
+#dolmen.menu 2.0
+dolmen.location==0.1
+
+#Required by:
+#demoapp 1.0
+dolmen.menu==2.0
+
+#Required by:
+#demoapp 1.0
+dolmen.message==0.1
+
+#Required by:
+#demoapp 1.0
+dolmen.request==0.2
+
+#Required by:
+#demoapp 1.0
+dolmen.tales==0.1
+
+#Required by:
+#demoapp 1.0
+dolmen.template==0.1
+
+#Required by:
+#demoapp 1.0
+#js.bootstrap 2.1.1
+fanstatic==0.11.4
+
+#Required by:
+#demoapp 1.0
+grokcore.component==2.4
+
+#Required by:
+#demoapp 1.0
+grokcore.security==1.5
+
+#Required by:
+#demoapp 1.0
+js.bootstrap==2.1.1
+
+#Required by:
+#js.bootstrap 2.1.1
+js.jquery==1.7.1
+
+#Required by:
+#zope.i18n 3.8.0
+#zope.dublincore 3.8.2
+pytz==2012c
+
+#Required by:
+#zope.schema 4.1.1
+six==1.1.0
+
+#Required by:
+#demoapp 1.0
+traject==0.10.1
+
+#Required by:
+#demoapp 1.0
+transaction==1.2.0
+
+#Required by:
+#dolmen.batch 0.1.2
+z3c.batching==1.1.0
+
+#Required by:
+#mr.developer 1.21
+#collective.recipe.sphinxbuilder 0.7.1
 zc.buildout==1.5.2
 
 #Required by:
-#collective.recipe.sphinxbuilder 0.7.0
+#ZODB3 3.10.5
+zc.lockfile==1.0.0
+
+#Required by:
+#collective.recipe.sphinxbuilder 0.7.1
 zc.recipe.egg==1.3.2
+
+#Required by:
+#ZODB3 3.10.5
+zdaemon==2.0.4
+
+#Required by:
+#demoapp 1.0
+zope.cachedescriptors==3.5.1
+
+#Required by:
+#demoapp 1.0
+#sphinxcontrib.infrae 1.0
+#zope.i18n 3.8.0
+#zope.security 3.8.3
+zope.component==3.12.1
+
+#Required by:
+#cromlech.configuration 0.1
+#dolmen.forms.base 2.3
+#grokcore.component 2.4
+zope.configuration==3.8.0
+
+#Required by:
+#zope.dublincore 3.8.2
+zope.datetime==3.4.1
+
+#Required by:
+#cromlech.container 0.1
+zope.dottedname==3.4.6
+
+#Required by:
+#demoapp 1.0
+zope.dublincore==3.8.2
+
+#Required by:
+#demoapp 1.0
+#zope.schema 4.1.1
+zope.event==3.5.2
+
+#Required by:
+#zope.testing 4.1.1
+zope.exceptions==3.7.1
+
+#Required by:
+#demoapp 1.0
+zope.i18n==3.8.0
+
+#Required by:
+#cromlech.container 0.1
+#dolmen.content 2.0a2
+#dolmen.app.container 2.1
+#dolmen.forms.crud 2.2
+#dolmen.forms.base 2.3
+#zope.i18n 3.8.0
+#zope.security 3.8.3
+zope.i18nmessageid==3.6.1
+
+#Required by:
+#demoapp 1.0
+#sphinxcontrib.infrae 1.0
+#zope.security 3.8.3
+#zope.location 3.9.1
+zope.interface==3.8.0
+
+#Required by:
+#cromlech.container 0.1
+#dolmen.forms.crud 2.2
+#dolmen.forms.base 2.3
+#zope.dublincore 3.8.2
+zope.lifecycleevent==3.7.0
+
+#Required by:
+#demoapp 1.0
+#zope.security 3.8.3
+zope.location==3.9.1
+
+#Required by:
+#demoapp 1.0
+#sphinxcontrib.infrae 1.0
+#zope.security 3.8.3
+zope.schema==4.1.1
+
+#Required by:
+#demoapp 1.0
+zope.security==3.8.3
+
+#Required by:
+#cromlech.container 0.1
+zope.size==3.5.0
+
+#Required by:
+#cromlech.sqlalchemy 0.3
+zope.sqlalchemy==0.7
+
+#Required by:
+#grokcore.component 2.4
+zope.testing==4.1.1
