@@ -1,6 +1,6 @@
-==============
-About Cromlech
-==============
+=================
+Cromlech Overview
+=================
 
 Cromlech is the namecode of a toolkit based on the ZCA, Martian and a
 tiny subset of Grok's grokcore packages.
@@ -28,20 +28,20 @@ decision to strictly separate the implementation and the definition.
 
 This is the reason to be of the 2 main Cromlech packages.
 
-cromlech.io
-~~~~~~~~~~~
-
-cromlech.io defines the primitive and utmost basic entities of an
-application : the request, the response and the actors linked to it,
-namedly the publication and the application itself.
-
 
 cromlech.browser
 ~~~~~~~~~~~~~~~~
 
-cromlech.browser is the backbone of a webapplication. It defines an
-extensive set of publisheable actors, from the forms and views to the
-sub-components, known in Zope/Grok as viewlets, viewletmanagers.
+cromlech.browser is the backbone of a webapplication.
+It defines
+
+the primitive and utmost basic entities of an application :
+the request, the response and the actors linked to it,
+namedly the publication and the application itself.
+
+It also defines an extensive set of publisheable actors,
+from the forms and views
+to the sub-components, known in Zope/Grok as viewlets, viewletmanagers.
 
 This package is more or less similar in the idea to `zope.browser`,
 that tried and failed in separating the component definition of the
